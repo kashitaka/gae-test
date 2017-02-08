@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nx/web/thymeleaf/layout" >
+<head>
+	<meta charset="UTF-8"/>
+	<title>chatapp</title>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js" th:src="@{webjars/jquery/1.11.1/jquery.min.js}"></script>
+	<script type="text/javascript" src="/javascript/chatapp.js" th:src="@{/javascript/chatapp.js}"></script>
+	<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" th:href="@{/webjars/bootstrap/3.3.7/css/bootstrap.min.css}" />
+	<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" th:href="@{/webjars/bootstrap/3.3.7/css/bootstrap-theme.min.css}" />
+	<link rel="stylesheet" type="text/css" href="/css/chatapp.css" th:href="@{/css/chatapp.css}" />
+</head>
+<body>
+<script>$(document).ready(function(){chatapp.initmodule();});</script>
+<div>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+	<h1>ChatApp</h1>
+	<span class="glyphicon glyphicon-off"> this is spring boot app! </span>
+  </div>
+</nav>
+</div>
+<div class="container" id="commentsArea" style="margin-top:100px">
+</div>
+<div>
+<nav class="navbar navbar-default navbar-fixed-bottom cha-footer">
+  <div class="container">
+ 	 <div class="row">
+ 	 	<div class="col-xs-10">
+	 	 	<textarea class="form-control" id="ch-submit-text" rows="5"></textarea>
+ 	 	</div>
+  	 	<div class="col-xs-2">
+  	 		<button type="button" id="ch-submit-btn" class="btn btn-primary">送信</button>
+ 	 	</div>
+ 	 </div>
+  </div>
+</nav>
+</div>
+</body>
+</html>

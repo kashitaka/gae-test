@@ -1,0 +1,26 @@
+.cha-footer {
+	height: 10%;
+}
+
+.comment-box {
+    background-color: lightgray;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    margin-bottom: 6px;
+}
+
+.comment-date {
+	font-size: 8pt;
+}
+
+.comment-id{
+	display: none;
+}
+
+.comment-text {
+	font-size: 20pt;
+}
+
+#commentsArea {
+	margin-bottom: 10%;
+}
