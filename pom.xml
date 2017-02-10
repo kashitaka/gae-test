@@ -23,10 +23,6 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
 		
-	<!-- [START compiler] -->
-    	<maven.compiler.target>1.7</maven.compiler.target>
-    	<maven.compiler.source>1.7</maven.compiler.source>
-	<!-- [END compiler] -->
 	</properties>
 
 	<dependencies>
